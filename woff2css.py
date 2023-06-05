@@ -14,7 +14,7 @@ def main(path):
             if isfile(file) and ext in candidates: 
                 css.write("@font-face")
                 css.write("{")
-                css.write(f"\n\tfont-family: '{f.replace('-',' ')}';")
+                css.write(f"\n\tfont-family: '{f.split('.')[0].replace('-',' ')}';")
                 css.write(f"\n\tsrc: url('{f}');")
                 css.write("\n}\n")
 if __name__ == '__main__':
