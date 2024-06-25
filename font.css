@@ -1,0 +1,32 @@
+@font-face{
+	font-family: 'Andika Bold';
+	src: url('/fonts/Andika-Bold.woff2');
+}
+@font-face{
+	font-family: 'Andika BoldItalic';
+	src: url('/fonts/Andika-BoldItalic.woff2');
+}
+@font-face{
+	font-family: 'Andika Italic';
+	src: url('/fonts/Andika-Italic.woff2');
+}
+@font-face{
+	font-family: 'Andika Regular';
+	src: url('/fonts/Andika-Regular.woff2');
+}
+@font-face{
+	font-family: 'PlaywriteAUVIC ExtraLight';
+	src: url('/fonts/PlaywriteAUVIC-ExtraLight.woff2');
+}
+@font-face{
+	font-family: 'PlaywriteAUVIC Light';
+	src: url('/fonts/PlaywriteAUVIC-Light.woff2');
+}
+@font-face{
+	font-family: 'PlaywriteAUVIC Regular';
+	src: url('/fonts/PlaywriteAUVIC-Regular.woff2');
+}
+@font-face{
+	font-family: 'PlaywriteAUVIC Thin';
+	src: url('/fonts/PlaywriteAUVIC-Thin.woff2');
+}
