@@ -20,10 +20,10 @@ def main(path):
                 css.write("\n}\n")
 if __name__ == '__main__':
     current_directory = abspath(getcwd())
+    current_directory = os.path.abspath(os.getcwd())
     parser = argparse.ArgumentParser(description="AnyFont v1")
     parser.add_argument("-d", type=str, help="directory to search")
     args = parser.parse_args()
-    current_directory = os.path.abspath(os.getcwd())
     if bool(args.d):
         current_directory = args.d
     main(current_directory)

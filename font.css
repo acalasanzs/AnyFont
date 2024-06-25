@@ -1,32 +1,152 @@
 @font-face{
-	font-family: 'Andika Bold';
-	src: url('/fonts/Andika-Bold.woff2');
+	font-family: 'BeVietnamPro Black';
+	src: url('BeVietnamPro-Black.woff2');
 }
 @font-face{
-	font-family: 'Andika BoldItalic';
-	src: url('/fonts/Andika-BoldItalic.woff2');
+	font-family: 'BeVietnamPro BlackItalic';
+	src: url('BeVietnamPro-BlackItalic.woff2');
 }
 @font-face{
-	font-family: 'Andika Italic';
-	src: url('/fonts/Andika-Italic.woff2');
+	font-family: 'BeVietnamPro Bold';
+	src: url('BeVietnamPro-Bold.woff2');
 }
 @font-face{
-	font-family: 'Andika Regular';
-	src: url('/fonts/Andika-Regular.woff2');
+	font-family: 'BeVietnamPro BoldItalic';
+	src: url('BeVietnamPro-BoldItalic.woff2');
 }
 @font-face{
-	font-family: 'PlaywriteAUVIC ExtraLight';
-	src: url('/fonts/PlaywriteAUVIC-ExtraLight.woff2');
+	font-family: 'BeVietnamPro ExtraBold';
+	src: url('BeVietnamPro-ExtraBold.woff2');
 }
 @font-face{
-	font-family: 'PlaywriteAUVIC Light';
-	src: url('/fonts/PlaywriteAUVIC-Light.woff2');
+	font-family: 'BeVietnamPro ExtraBoldItalic';
+	src: url('BeVietnamPro-ExtraBoldItalic.woff2');
 }
 @font-face{
-	font-family: 'PlaywriteAUVIC Regular';
-	src: url('/fonts/PlaywriteAUVIC-Regular.woff2');
+	font-family: 'BeVietnamPro ExtraLight';
+	src: url('BeVietnamPro-ExtraLight.woff2');
 }
 @font-face{
-	font-family: 'PlaywriteAUVIC Thin';
-	src: url('/fonts/PlaywriteAUVIC-Thin.woff2');
+	font-family: 'BeVietnamPro ExtraLightItalic';
+	src: url('BeVietnamPro-ExtraLightItalic.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro Italic';
+	src: url('BeVietnamPro-Italic.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro Light';
+	src: url('BeVietnamPro-Light.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro LightItalic';
+	src: url('BeVietnamPro-LightItalic.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro Medium';
+	src: url('BeVietnamPro-Medium.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro MediumItalic';
+	src: url('BeVietnamPro-MediumItalic.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro Regular';
+	src: url('BeVietnamPro-Regular.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro SemiBold';
+	src: url('BeVietnamPro-SemiBold.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro SemiBoldItalic';
+	src: url('BeVietnamPro-SemiBoldItalic.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro Thin';
+	src: url('BeVietnamPro-Thin.woff2');
+}
+@font-face{
+	font-family: 'BeVietnamPro ThinItalic';
+	src: url('BeVietnamPro-ThinItalic.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond Bold';
+	src: url('CormorantGaramond-Bold.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond BoldItalic';
+	src: url('CormorantGaramond-BoldItalic.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond Italic';
+	src: url('CormorantGaramond-Italic.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond Light';
+	src: url('CormorantGaramond-Light.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond LightItalic';
+	src: url('CormorantGaramond-LightItalic.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond Medium';
+	src: url('CormorantGaramond-Medium.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond MediumItalic';
+	src: url('CormorantGaramond-MediumItalic.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond Regular';
+	src: url('CormorantGaramond-Regular.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond SemiBold';
+	src: url('CormorantGaramond-SemiBold.woff2');
+}
+@font-face{
+	font-family: 'CormorantGaramond SemiBoldItalic';
+	src: url('CormorantGaramond-SemiBoldItalic.woff2');
+}
+@font-face{
+	font-family: 'Inter Black';
+	src: url('Inter-Black.woff2');
+}
+@font-face{
+	font-family: 'Inter Bold';
+	src: url('Inter-Bold.woff2');
+}
+@font-face{
+	font-family: 'Inter ExtraBold';
+	src: url('Inter-ExtraBold.woff2');
+}
+@font-face{
+	font-family: 'Inter ExtraLight';
+	src: url('Inter-ExtraLight.woff2');
+}
+@font-face{
+	font-family: 'Inter Light';
+	src: url('Inter-Light.woff2');
+}
+@font-face{
+	font-family: 'Inter Medium';
+	src: url('Inter-Medium.woff2');
+}
+@font-face{
+	font-family: 'Inter Regular';
+	src: url('Inter-Regular.woff2');
+}
+@font-face{
+	font-family: 'Inter SemiBold';
+	src: url('Inter-SemiBold.woff2');
+}
+@font-face{
+	font-family: 'Inter Thin';
+	src: url('Inter-Thin.woff2');
+}
+@font-face{
+	font-family: 'Inter VariableFont_slnt,wght';
+	src: url('Inter-VariableFont_slnt,wght.woff2');
 }
