@@ -3,7 +3,7 @@ from os import listdir
 from os.path import isfile, join
 import argparse
 
-import candidates
+import anyfont.candidates as candidates
 
 candidate = [
 {
@@ -30,7 +30,7 @@ def any_to_candidates(path):
         ext = os.path.splitext(file)[1]
         if isfile(file) and ext in candidates_ext:
             print(candidate[candidates_ext.index(ext)]['fun'](file, f))
-if __name__ == "__main__":
+def entry():
     parser = argparse.ArgumentParser(description="AnyFont v1")
     parser.add_argument("-d", type=str, help="directory to search")
     args = parser.parse_args()
@@ -38,3 +38,5 @@ if __name__ == "__main__":
     if(bool(args.d)):
         current_directory = args.d
     any_to_candidates(current_directory)
+if __name__ == "__main__":
+    entry()

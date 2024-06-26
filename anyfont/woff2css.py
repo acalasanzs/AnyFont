@@ -18,7 +18,7 @@ def main(path):
                 css.write(f"\n\tfont-family: '{f.split('.')[0].replace('-',' ')}';")
                 css.write(f"\n\tsrc: url('{f}');")
                 css.write("\n}\n")
-if __name__ == '__main__':
+def entry():
     current_directory = abspath(getcwd())
     parser = argparse.ArgumentParser(description="AnyFont v1")
     parser.add_argument("-d", type=str, help="directory to search")
@@ -27,3 +27,5 @@ if __name__ == '__main__':
     if bool(args.d):
         current_directory = args.d
     main(current_directory)
+if __name__ == '__main__':
+    entry()
